@@ -1,11 +1,11 @@
 # bf
 A very small Brainfuck interpreter
 
-To build, simply run make.
+To build, simply run `make`.
 
 Running the interpreter is simple:
 
-    $ ./bf input.bf
+    $ ./bf hello.bf
 
 The interpreter purposely does no error checking. If you don't specify an
 input file, it will crash. If there is an error reading the input file, it
